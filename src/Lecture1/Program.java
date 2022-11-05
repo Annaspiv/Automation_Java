@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Program {
 
 
-    public static void main(String[] args) {
+    public static void main2 (String[] args) {
         while (true) {
             menuPrint();
 
@@ -70,9 +70,9 @@ public class Program {
                 int i = sc.nextInt();
                 System.out.println("enter stop");
                 int stop = sc.nextInt();
-                int i;
+
                // int start = i;
-                for (i; i <= stop; i++) {
+                for (; i <= stop; i++) {
                     System.out.println(i);
                 }
                 return true;
@@ -84,4 +84,3 @@ public class Program {
 
     }
 }
-
