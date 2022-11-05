@@ -11,7 +11,7 @@ public class MyLibrary {
 
     public static void printDecrement(int start, int stop) {
         int i = start;
-        while (i > stop) {
+        while (i >= stop) {
             System.out.println(i);
             i--;
         }
