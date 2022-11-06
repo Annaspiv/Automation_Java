@@ -78,6 +78,38 @@ public class GeometricFigures {
             System.out.println();
             a++;
         }
-//
+//рисуем прямоугольник
+        System.out.println("рисуем прямоугольник");
+        for (int i = 0; i < 6; i++) {
+
+            System.out.print("\t");
+
+            for (int j = 0; j < 8; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+//рисуем круг
+        System.out.println("рисуем круг");
+        for (int i = 0; i < 10; i++) {
+
+            System.out.print("\t");
+
+            for (int j = 0; j < 10; j++) {
+
+                if (i == 0 && j == 4 || i == 0 && j == 5 || i == 1 && j == 7 || i == 2 && j == 8 ||
+                        i == 4 && j == 9 || i == 5 && j == 9 || i == 7 && j == 8 || i == 8 && j == 7 ||
+                        i == 8 && j == 2 || i == 7 && j == 1 || i == 5 && j == 0 || i == 4 && j == 0 ||
+                        i == 9 && j == 4 || i == 9 && j == 5 || i == 2 && j == 1 || i == 1 && j == 2) {
+                    System.out.print("* ");
+
+                } else {
+                    System.out.print("  ");
+
+                }
+
+            }
+            System.out.println();
+        }
     }
 }
